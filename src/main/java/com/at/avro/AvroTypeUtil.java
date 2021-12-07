@@ -47,6 +47,7 @@ final class AvroTypeUtil {
         switch (type.toLowerCase()) {
 
             case "integer":
+            case "number":
             case "int":
             case "int unsigned":
             case "int2":
